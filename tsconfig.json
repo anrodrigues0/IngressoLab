@@ -6,6 +6,11 @@
     "baseUrl": ".",
     "paths": {
       "@components":["./src/presentation/components"],
+      "@pages":["./src/presentation/pages"],
+      "components/*":["./src/presentation/components/*"],
+      "@theme-global/*": ["./src/presentation/theme/*"],
+      "@routes/*": ["./src/mainlayer/routes/*"],
+      "@providers/*": ["./src/presentation/provider/*"],
       "src/*": ["src/*"]
     },
     /* Completeness */

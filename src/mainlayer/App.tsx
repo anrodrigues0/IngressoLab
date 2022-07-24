@@ -1,17 +1,18 @@
 import React from 'react';
-import { SafeAreaView, StatusBar } from 'react-native';
-import { Test1, Test2 } from '@components';
+import { StatusBar } from 'react-native';
+import { ThemeGlobalProvider } from '@providers/theme-global.provider';
+import { MainRoutes } from '@routes/main.routes';
 
 function App() {
   return (
-    <SafeAreaView>
+    <ThemeGlobalProvider>
       <StatusBar
         backgroundColor="transparent"
+        translucent
         barStyle="dark-content"
       />
-      <Test1 />
-      <Test2 />
-    </SafeAreaView>
+      <MainRoutes />
+    </ThemeGlobalProvider>
   );
 }
 

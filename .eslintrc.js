@@ -28,5 +28,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'linebreak-style': 'off',
+    'react/jsx-no-bind': 'off',
+    'react/no-unstable-nested-components': 'off',
   },
 };
